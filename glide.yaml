@@ -1,0 +1,6 @@
+package: github.com/andrepinto/navyhook-plugins
+import:
+- package: k8s.io/helm
+  version: ^2.6.1
+  subpackages:
+  - pkg/chartutil

@@ -1,0 +1,39 @@
+hash: 2a0171683c05b75149b6b717ff86465ba92d2800e50db43797af00f30102de3c
+updated: 2017-09-10T01:44:09.327860268+01:00
+imports:
+- name: github.com/BurntSushi/toml
+  version: b26d9c308763d68093482582cea63d69be07a0f0
+- name: github.com/facebookgo/symwalk
+  version: 42004b9f322246749dd73ad71008b1f3160c0052
+- name: github.com/ghodss/yaml
+  version: 73d445a93680fa1a78ae23a5839bad48f32ba1ee
+- name: github.com/gobwas/glob
+  version: bea32b9cd2d6f55753d94a28e959b13f0244797a
+  subpackages:
+  - compiler
+  - match
+  - syntax
+  - syntax/ast
+  - syntax/lexer
+  - util/runes
+  - util/strings
+- name: github.com/golang/protobuf
+  version: 2bba0603135d7d7f5cb73b2125beeda19c09f4ef
+  subpackages:
+  - proto
+  - ptypes/any
+  - ptypes/timestamp
+- name: gopkg.in/yaml.v2
+  version: 53feefa2559fb8dfa8d81baad31be332c97d6c77
+- name: k8s.io/apimachinery
+  version: 1fd2e63a9a370677308a42f24fd40c86438afddf
+  subpackages:
+  - pkg/version
+- name: k8s.io/helm
+  version: bbc1f71dc03afc5f00c6ac84b9308f8ecb4f39ac
+  subpackages:
+  - pkg/chartutil
+  - pkg/ignore
+  - pkg/proto/hapi/chart
+  - pkg/proto/hapi/version
+testImports: []
